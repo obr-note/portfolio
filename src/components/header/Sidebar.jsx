@@ -12,17 +12,15 @@ const sidebarContent = [
   { icon: "human", itemName: "About", itemRoute: "#about" },
   { icon: "service", itemName: "Service", itemRoute: "#service" },
   { icon: "portfolio", itemName: "Portfolio", itemRoute: "#portfolio" },
-  { icon: "testimonial", itemName: "Testimonial", itemRoute: "#testimonial" },
-  { icon: "blog", itemName: "Blog", itemRoute: "#blog" },
   { icon: "contact", itemName: "Contact", itemRoute: "#contact" },
 ];
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
   avatar: "img/about/avatar.jpg",
-  name: "Nelson",
-  email: "support@gmail.com",
-  emailRef: "mailto:ib-themes21@gmail.com",
+  name: "Ken",
+  email: "Email",
+  emailRef: "mailto:k33mdukb9n@yahoo.co.jp",
 };
 
 const Sidebar = () => {
@@ -44,19 +42,6 @@ const Sidebar = () => {
         className={click ? "edina_tm_sidebar menu-open" : "edina_tm_sidebar"}
       >
         <div className="sidebar_inner">
-          <div className="logo">
-            <img
-              className="logo_dark"
-              src={`img/logo/${logo}.png`}
-              alt="brand"
-            />
-            <img
-              className="logo_light"
-              src={`img/logo/${logo2}.png`}
-              alt="brand"
-            />
-          </div>
-          {/* End .logo */}
 
           <div className="menu">
             <ScrollspyNav
@@ -65,8 +50,6 @@ const Sidebar = () => {
                 "about",
                 "service",
                 "portfolio",
-                "testimonial",
-                "blog",
                 "contact",
               ]}
               activeNavClass="active"

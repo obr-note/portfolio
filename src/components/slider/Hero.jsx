@@ -3,9 +3,9 @@ import Social from "../Social";
 
 const heroContent = {
   shapeImage: "hero-shape",
-  heroImage: "2",
-  name: "Rokers Nelson",
-  description: `I'm a Freelancer Front-end React Developer with over 6 years of
+  heroImage: "face",
+  name: "Ken Obara",
+  description: `I'm a Back-end and Front-end Developer with over 1.5 years of
   professional experience in this field.`,
 };
 

@@ -10,17 +10,16 @@ import {
 const SocialShare = [
   {
     iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/ken.obara.3939",
   },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
+  { iconName: <FiTwitter />, link: "https://twitter.com/2_obr" },
   {
     iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/ken.obara.3939",
   },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/ken-obara-807a891b1",
   },
 ];
 const Social = () => {
