@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import ScrollspyNav from "react-scrollspy-nav";
-
-// logo name
-const logo = "dark";
-const logo2 = "light";
 
 // sidebar content
 const sidebarContent = [

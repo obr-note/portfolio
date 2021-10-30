@@ -3,24 +3,23 @@ import {
   FiFacebook,
   FiTwitter,
   FiInstagram,
-  FiDribbble,
   FiLinkedin,
 } from "react-icons/fi";
 
 const SocialShare = [
-  {
-    iconName: <FiFacebook />,
-    link: "https://www.facebook.com/ken.obara.3939",
-  },
+  // {
+  //   iconName: <FiFacebook />,
+  //   link: "https://www.facebook.com/ken.obara.3939",
+  // },
   { iconName: <FiTwitter />, link: "https://twitter.com/2_obr" },
-  {
-    iconName: <FiInstagram />,
-    link: "https://www.instagram.com/ken.obara.3939",
-  },
-  {
-    iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/ken-obara-807a891b1",
-  },
+  // {
+  //   iconName: <FiInstagram />,
+  //   link: "https://www.instagram.com/ken.obara.3939",
+  // },
+  // {
+  //   iconName: <FiLinkedin />,
+  //   link: "https://www.linkedin.com/in/ken-obara-807a891b1",
+  // },
 ];
 const Social = () => {
   return (

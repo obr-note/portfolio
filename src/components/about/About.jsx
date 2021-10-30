@@ -27,20 +27,22 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, I'm <span>Rokers Nelson</span>
+                Hi, I'm <span>obr-note</span>
               </h3>
               <p>
-                I'm a Freelancer Front-end Developer with over 6 years of
-                experience. I'm from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+                　大学時代は地質学を専攻していたため、新卒ではセメント会社に入社し、鉱山運営全般に関わる仕事をしてしました。
+                最初の3年間は、山口県の鉱山現場にて生産管理や品質管理の業務に従事しました。
+                次の2年間は、東京の本社にて、全国各地の地質調査や鉱業権の管理の仕事に従事しました。<br/>
+                　業務の中で、ExcelVBAでファイルの転記作業を自動化するプログラムを開発して、プログラミングの威力に感動しました。
+                その後、転職活動をするなかで、コードを書くエンジニアの仕事がしたいと思い、2020年4月よりエンジニアとしてのキャリアをスタートしました。
               </p>
             </div>
             <div className="my_skills">
               <h3 className="title">What is my skill level?</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+                　業務では、Ruby on RailsとReact（JavaScript）を書いている時間が大半です。
+                たまに、AWSやReactNativeを触ることがあります。<br/>
+                　個人では、Golang、React（TypeScript）、インフラはAWS、Firebaseを使うことが多いです。
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -62,13 +64,13 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <img src="img/thumbs/26-35.jpg" alt="thumb" />
+              <img src="img/about/mine.jpeg" alt="thumb" />
 
               <div
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/2.jpg"
+                    process.env.PUBLIC_URL + "img/about/mine.jpeg"
                   })`,
                 }}
                 data-aos="fade-left"
@@ -83,7 +85,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>6+ Years</h3>
+                  <h3>1.5+ Years</h3>
                   <span>Of Experiance</span>
                 </div>
               </div>

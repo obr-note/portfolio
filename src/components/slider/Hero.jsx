@@ -4,9 +4,8 @@ import Social from "../Social";
 const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "face",
-  name: "Ken Obara",
-  description: `I'm a Back-end and Front-end Developer with over 1.5 years of
-  professional experience in this field.`,
+  name: "obr-note",
+  description: `バックエンド兼フロントエンドエンジニアをしています。実務経験は約１年半です。`,
 };
 
 const Hero = () => {
@@ -18,7 +17,7 @@ const Hero = () => {
           <img
             src={`img/hero/${heroContent.shapeImage}`}
             srcSet={`img/hero/${heroContent.heroImage}.jpg`}
-            alt="hero image"
+            alt="hero"
           />
         </div>
         <div className="extra">
