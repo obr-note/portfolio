@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../../components/header/Sidebar";
 import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
-import Service from "../../components/service/Service";
+import Project from "../../components/project/Project";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
@@ -19,17 +19,16 @@ const HomeLight = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_services" id="service">
+      <div className="edina_tm_services" id="project">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>What I Do</h3>
+            <h3>What I Did</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              これまで関わったプロジェクトです。今後増やしていく予定です。
             </p>
           </div>
           {/* End edian_tm_title */}
-          <Service />
+          <Project />
         </div>
       </div>
       {/* End Services */}
@@ -39,8 +38,7 @@ const HomeLight = () => {
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              これまで作成したポートフォリオです。今後増やしていく予定です。
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -54,44 +52,13 @@ const HomeLight = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              連絡はメールからお願いします。
             </p>
           </div>
           <div className="extra_info">
             <Address />
           </div>
           {/* End Address Info */}
-          <div className="mainpart">
-            <div
-              className="left"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="300"
-            >
-              <div className="title">
-                <p>
-                  I'm always open to discussing product
-                  <br />
-                  <span> design work or partnerships.</span>
-                </p>
-              </div>
-              {/* End title */}
-              <div className="fields">
-                <Contact />
-              </div>
-              {/* End Contact Form */}
-            </div>
-            <div
-              className="right"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="400"
-            >
-              <Map />
-            </div>
-            {/* End Map */}
-          </div>
         </div>
       </div>
       {/* /CONTACT */}

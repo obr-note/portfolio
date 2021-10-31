@@ -5,7 +5,7 @@ import ScrollspyNav from "react-scrollspy-nav";
 const sidebarContent = [
   { icon: "home", itemName: "Home", itemRoute: "#home" },
   { icon: "human", itemName: "About", itemRoute: "#about" },
-  { icon: "service", itemName: "Service", itemRoute: "#service" },
+  { icon: "service", itemName: "Project", itemRoute: "#project" },
   { icon: "portfolio", itemName: "Portfolio", itemRoute: "#portfolio" },
   { icon: "contact", itemName: "Contact", itemRoute: "#contact" },
 ];
@@ -43,7 +43,7 @@ const Sidebar = () => {
               scrollTargetIds={[
                 "home",
                 "about",
-                "service",
+                "project",
                 "portfolio",
                 "contact",
               ]}

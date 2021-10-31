@@ -41,7 +41,7 @@ const About = () => {
                 　業務では、Ruby on RailsとReact（JavaScript）を書いている時間が大半です。
                 たまに、AWSやReactNativeを触ることがあります。<br/>
                 　個人では、Golang、React（TypeScript）、インフラはAWS、Firebaseを使うことが多いです。<br/>
-                　エディターは、Visual Studio CodeにNeovimのプラグインを入れています。エセVimmerです。
+                　エディターは、Visual Studio CodeにNeovimのプラグインを入れています。
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -54,7 +54,7 @@ const About = () => {
                   className="color"
                   onClick={toggleModalOne}
                 >
-                  More About Me
+                  もっと詳しく
                 </button>
               </div>
             </div>
@@ -69,7 +69,7 @@ const About = () => {
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/about.jpeg"
+                    process.env.PUBLIC_URL + "/img/about/about.jpeg"
                   })`,
                 }}
                 data-aos="fade-left"
@@ -104,7 +104,7 @@ const About = () => {
       >
         <div className="edina_tm_modalbox">
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <img src="img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 

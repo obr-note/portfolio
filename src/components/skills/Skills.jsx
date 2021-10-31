@@ -33,6 +33,14 @@ const skillsContent = [
     name: "Typescript",
     skillPercent: "65",
   },
+  {
+    name: "React Native",
+    skillPercent: "65",
+  },
+  {
+    name: "Vim",
+    skillPercent: "80",
+  },
 ];
 
 const Skills = () => {
