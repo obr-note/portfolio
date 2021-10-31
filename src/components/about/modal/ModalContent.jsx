@@ -1,6 +1,6 @@
 import React from "react";
-import Achievements from "../Achievements";
-import PersonalInfo from "../PersonalInfo";
+import Hobbies from "../Hobbies";
+import Certification from "../Certification";
 import Experience from "../Experience";
 import Education from "../Education";
 
@@ -9,21 +9,16 @@ const ModalContent = () => {
     <>
       <div className="row">
         <div className="col-6">
-          <h3>Personal Info</h3>
-          <PersonalInfo />
-          <div className="edina_tm_button">
-            <a href="img/cv.png" download className="color">
-              Download CV
-            </a>
-          </div>
+          <h3>Certification</h3>
+          <Certification />
         </div>
-        {/* End  PersonalInfo */}
+        {/* End  Certification */}
 
         <div className="col-6 achievements-wrapper">
-          <h3>Achievements</h3>
-          <Achievements />
+          <h3>Hobbies</h3>
+          <Hobbies />
         </div>
-        {/* End  Achievements */}
+        {/* End  Hobbies */}
       </div>
       {/* End .row */}
 

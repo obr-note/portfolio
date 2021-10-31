@@ -2,25 +2,23 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2020.4 - 現在",
+    position: "エンジニア",
+    compnayName: "株式会社つなげーと",
+    details: `従業員数名のシード期のスタートアップ企業です。
+      自社でtoC向けのプラットフォームを運営しており、ユーザー数は約20万人です。
+      業務内容としては、Ruby on Railsを書く時間が約6割、Reactを書く時間が約4割です。
+      フルタイムで稼働しているエンジニアは自分だけです。
+      ビジネスの試行錯誤を早く回すため開発スピードが重視されており、社長から直に追加したい機能の注文を受けて頭の中で設計を考えながら開発をしています。`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
-  },
-  {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2015.4 - 2020.3",
+    position: "技術系総合職",
+    compnayName: "住友大阪セメント株式会社",
+    details: `従業員数約3,000名（グループ会社含む）の住友グループのセメント会社です。
+      セメントの原材料となる石灰石を供給する鉱山の管理部門にいました。
+      最初の3年間は、山口県の鉱山現場にて生産管理や品質管理の業務に従事しました。
+      次の2年間は、東京の本社にて、全国各地の地質調査や鉱業権の管理の仕事に従事しました。`,
   },
 ];
 

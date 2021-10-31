@@ -4,7 +4,7 @@ import Social from "../Social";
 const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "face",
-  name: "obr-note",
+  name: "obrkn",
   description: `バックエンド兼フロントエンドエンジニアをしています。実務経験は約１年半です。`,
 };
 

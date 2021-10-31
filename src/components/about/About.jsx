@@ -27,14 +27,12 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, I'm <span>obr-note</span>
+                Hi, I'm <span>obrkn</span>
               </h3>
               <p>
-                　大学時代は地質学を専攻していたため、新卒ではセメント会社に入社し、鉱山運営全般に関わる仕事をしてしました。
-                最初の3年間は、山口県の鉱山現場にて生産管理や品質管理の業務に従事しました。
-                次の2年間は、東京の本社にて、全国各地の地質調査や鉱業権の管理の仕事に従事しました。<br/>
-                　業務の中で、ExcelVBAでファイルの転記作業を自動化するプログラムを開発して、プログラミングの威力に感動しました。
-                その後、転職活動をするなかで、コードを書くエンジニアの仕事がしたいと思い、2020年4月よりエンジニアとしてのキャリアをスタートしました。
+                　大学時代は地質学を専攻していたため、新卒ではセメント会社に入社し、鉱山運営全般に関わる仕事をしてしました。<br/>
+                　業務の中で、ExcelVBAでファイルの転記作業を自動化するプログラムを自作して、プログラミングに魅了されました。<br/>
+                　その後、転職活動をするなかで、コードを書くエンジニアの仕事がしたいと思い、2020年4月よりエンジニアとしてのキャリアをスタートしました。
               </p>
             </div>
             <div className="my_skills">
@@ -42,7 +40,8 @@ const About = () => {
               <p className="desc">
                 　業務では、Ruby on RailsとReact（JavaScript）を書いている時間が大半です。
                 たまに、AWSやReactNativeを触ることがあります。<br/>
-                　個人では、Golang、React（TypeScript）、インフラはAWS、Firebaseを使うことが多いです。
+                　個人では、Golang、React（TypeScript）、インフラはAWS、Firebaseを使うことが多いです。<br/>
+                　エディターは、Visual Studio CodeにNeovimのプラグインを入れています。エセVimmerです。
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -64,13 +63,13 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <img src="img/about/mine.jpeg" alt="thumb" />
+              <img src="img/about/about.jpeg" alt="thumb" />
 
               <div
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/mine.jpeg"
+                    process.env.PUBLIC_URL + "img/about/about.jpeg"
                   })`,
                 }}
                 data-aos="fade-left"
@@ -85,8 +84,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>1.5+ Years</h3>
-                  <span>Of Experiance</span>
+                  <span>鉱山管理 5年<br/>+<br/>プログラミング 1.5年</span>
                 </div>
               </div>
             </div>
