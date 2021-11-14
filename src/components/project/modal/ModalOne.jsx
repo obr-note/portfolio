@@ -3,19 +3,6 @@ import React from "react";
 const ModalOne = () => {
   return (
     <div className="popup_informations">
-      <div className="image">
-        <img src="img/thumbs/4-3.jpg" alt="" />
-        <div
-          className="main"
-          style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/img/service/1.jpeg"
-            })`,
-          }}
-        ></div>
-      </div>
-      {/* End big image */}
-
       <div className="description">
         <h3>プロジェクト概要</h3>
         <p>

@@ -38,11 +38,11 @@ const HomeLight = () => {
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
             <p>
-              これまで作成したポートフォリオです。今後増やしていく予定です。
+              これまで作成したポートフォリオです。準備中です。
             </p>
           </div>
           {/* End edian_tm_title */}
-          <Portfolio />
+          {/* <Portfolio /> */}
         </div>
       </div>
       {/* End Portfolio */}

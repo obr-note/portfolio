@@ -4,6 +4,7 @@ import {
   FiTwitter,
   FiInstagram,
   FiLinkedin,
+  FiGithub,
 } from "react-icons/fi";
 
 const SocialShare = [
@@ -12,6 +13,7 @@ const SocialShare = [
   //   link: "https://www.facebook.com/ken.obara.3939",
   // },
   { iconName: <FiTwitter />, link: "https://twitter.com/2_obr" },
+  { iconName: <FiGithub />, link: "https://github.com/obrkn" },
   // {
   //   iconName: <FiInstagram />,
   //   link: "https://www.instagram.com/ken.obara.3939",

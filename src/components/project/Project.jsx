@@ -51,14 +51,11 @@ const Project = () => {
         {/* Start Project Ui/Ux Consultancy */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalTwo}>
+            <div className="list_inner">
               <div className="hover">
                 <img className="svg custom" src="img/svg/2.svg" alt="" />
                 <div className="service_title">
-                  <h3>(個人開発)Twitter風アプリ</h3>
-                </div>
-                <div className="learn_more">
-                  もっと詳しく<span></span>
+                  <h3>(個人開発)準備中</h3>
                 </div>
               </div>
             </div>

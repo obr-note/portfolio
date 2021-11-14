@@ -40,9 +40,9 @@ const Hero = () => {
 
           <div
             className="social"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            data-aos-delay="300"
+            // data-aos="fade-up"
+            // data-aos-duration="1200"
+            // data-aos-delay="300"
           >
             <Social />
           </div>
